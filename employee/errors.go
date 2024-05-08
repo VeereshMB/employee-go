@@ -6,7 +6,6 @@ var (
 	ErrMandatoryParamsMissing = errors.New("missing mandatory params")
 	ErrUserNotFound           = errors.New("employee not found")
 	ErrNoEmployeesFound       = errors.New("no employee found in the page")
-	ErrInvalidPhoneNumber     = errors.New("invalid page number")
 	ErrInvalidLimit           = errors.New("invalid limit")
 	ErrInvalidPageNumber      = errors.New("invalid page number")
 )
